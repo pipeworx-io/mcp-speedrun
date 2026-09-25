@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-speedrun",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Speedrun.com MCP — wraps the Speedrun.com API v1 (speedrun.com/api/v1)",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-speedrun": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "speedrun"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-speedrun"
+    "url": "git+https://github.com/pipeworx-io/mcp-speedrun.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-ab1d1895cd5b556eba495c1e3ffaa69a7c6b177f55a0a5681f955abbb4684f8b",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }
