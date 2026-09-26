@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-speedrun",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Speedrun.com MCP — wraps the Speedrun.com API v1 (speedrun.com/api/v1)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-ab1d1895cd5b556eba495c1e3ffaa69a7c6b177f55a0a5681f955abbb4684f8b",
-    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
+    "sourceHash": "v1-1db52fde7e3a22c3a8df49434aecc0fdd9f867538e3d3f406af2183da34f74ea",
+    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
   }
 }
