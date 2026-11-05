@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-speedrun",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Speedrun.com MCP — wraps the Speedrun.com API v1 (speedrun.com/api/v1)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "speedrun",
     "gatewaySlug": "speedrun",
-    "sourceHash": "v1-fdda90cc322c63de9c5beb2895c8b220246f6200148b62fb96c7c08e3dd00891",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-cbb107890c141d123f2d2f179b2e6bdfd4c3583bcae294a7805e5633ab3497bb",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }
